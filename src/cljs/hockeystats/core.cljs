@@ -1,41 +1,33 @@
 (ns hockeystats.core)
 
-;; (.write js/document "<h1>Bla bla bla lbalbalkjsdfk</h1>")
-
-
-;; (defn writeDiv [team margin-top]
-;;   (.write js/document
-;;           (str "<div id=\"" team "\" style=\"margin-top: " margin-top "px\">" team "</div>")))
-
-;; (writeDiv "Brno" 10)
-;; (writeDiv "Zlin" 20)
-
 
 (def teams-table-div (.getElementById js/document "teams-table"))
-(def new-div (.createElement js/document "div"))
-(def new-text (.createTextNode js/document "Praha"))
-(.appendChild new-div new-text)
-(.appendChild teams-table-div new-div)
-
-
-(defn create-div [text margin-top]
-  (let [div (.createElement js/document "div")
-        textNode (.createTextNode js/document text)]
-    (.appendChild div textNode)
-    (.setAttribute div "id" text)
-    (.setAttribute div "style" (str "margin-top: " margin-top "px"))
-    (.appendChild teams-table-div div)))
-
-(.log js/console (create-div "Pardubice" 200))
-
-(.setAttribute (.getElementById js/document "Pardubice") "style" (str "margin-top: " 20 "px"))
 
 (def slider (.getElementById js/document "slider"))
 
+(def teams {(keyword "1") ["a" "b" "c"]
+            (keyword "2") ["b" "a" "c"]
+            (keyword "3") ["b" "a" "c"]
+            (keyword "4") ["b" "c" "a"]
+            (keyword "5") ["c" "b" "a"]
+            (keyword "6") ["c" "a" "b"]})
+
+(.log js/console (nth ((keyword "1") teams) 1))
+
 (defn handleSlider [event]
   (.log js/console event.target.value)
-  (let [element (.getElementById js/document "Pardubice")]
-    (.setAttribute element "style" (str "margin-top: " event.target.value "px"))))
+  (render-table event.target.value))
 
 (.addEventListener slider "mousemove" handleSlider)
+
+
+(def table (.getElementById js/document "teams-table-body"))
+
+(defn render-table [round]
+  (set! (. table -innerHTML) "")
+  (doseq [[team] ((keyword round) teams)]
+    (.log js/console team)
+    (let [table-row (.createElement js/document "tr")]
+    (.appendChild table-row (.createTextNode js/document team))
+    (.appendChild table table-row))))
 

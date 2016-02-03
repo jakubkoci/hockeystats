@@ -25,14 +25,26 @@
         height: 500px;
       }
 
+      #slider {
+        width: 500px;
+      }
+
     </style>
   </head>
   <body>
 
     <div id="teams-table">
+      <table>
+        <thead>
+          <th>Place</th>
+          <th>Team</th>
+          <th>Points</th>
+        </thead>
+        <tbody id="teams-table-body"></tbody>
+      </table>
     </div>
 
-    <input id="slider" type="range" name="points" min="0" max="280" step="20">
+    <input id="slider" type="range" name="points" min="1" max="6" step="1">
 
     <div id="teams-chart">
 
