@@ -1,0 +1,943 @@
+;"1. kolo
+";;;;;;
+;;HC Škoda Plzeň;5;"PÁ 11. 09.
+(3:1, 1:0, 1:0)";1;"
+HC Energie Karlovy Vary";
+;;BK Mladá Boleslav;2;"PÁ 11. 09.
+(0:1, 1:0, 1:0)";1;"
+HC Dynamo Pardubice";
+;;HC VERVA Litvínov;4;"PÁ 11. 09.
+(1:0, 3:0, 0:0)";0;"
+PSG Zlín";
+;;HC Oceláři Třinec;3;"PÁ 11. 09.
+(0:0, 1:0, 2:0)";0;"
+Piráti Chomutov";
+;;Mountfield HK;3;"PÁ 11. 09.
+(0:1, 2:1, 1:1 - 0:0 - 0:1)";4;"S
+HC VÍTKOVICE STEEL";
+;;HC Kometa Brno;5;"PÁ 11. 09.
+(3:1, 1:1, 1:0)";2;"
+Bílí Tygři Liberec";
+;;HC Sparta Praha;4;"PÁ 11. 09.
+(2:0, 1:0, 1:1)";1;"
+HC Olomouc";
+;"2. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;5;"NE 13. 09.
+(1:0, 1:1, 3:0)";1;"
+HC Kometa Brno";
+;;HC Energie Karlovy Vary;2;"NE 13. 09.
+(1:2, 1:2, 0:1)";5;"
+HC Oceláři Třinec";
+;;Bílí Tygři Liberec;4;"NE 13. 09.
+(1:0, 0:1, 3:0)";1;"
+HC VERVA Litvínov";
+;;HC Dynamo Pardubice;1;"NE 13. 09.
+(0:1, 1:1, 0:2)";4;"
+HC Škoda Plzeň";
+;;HC Olomouc;0;"NE 13. 09.
+(0:1, 0:0, 0:1)";2;"
+Mountfield HK";
+;;PSG Zlín;3;"NE 13. 09.
+(0:2, 2:2, 1:1)";5;"
+HC Sparta Praha";
+;;Piráti Chomutov;2;"NE 13. 09.
+(0:0, 0:0, 2:1)";1;"
+BK Mladá Boleslav";
+;"3. kolo
+";;;;;;
+;;HC Oceláři Třinec;1;"PÁ 18. 09.
+(0:0, 0:2, 1:0)";2;"
+PSG Zlín";
+;;HC Škoda Plzeň;2;"PÁ 18. 09.
+(0:1, 1:1, 1:2)";4;"
+Bílí Tygři Liberec";
+;;Piráti Chomutov;3;"PÁ 18. 09.
+(1:0, 0:1, 2:0)";1;"
+HC Dynamo Pardubice";
+;;BK Mladá Boleslav;1;"PÁ 18. 09.
+(0:0, 0:0, 1:1 - 0:0 - 0:1)";2;"S
+HC Olomouc";
+;;Mountfield HK;6;"PÁ 18. 09.
+(0:2, 4:2, 2:0)";4;"
+HC VERVA Litvínov";
+;;HC Kometa Brno;4;"PÁ 18. 09.
+(1:1, 1:1, 2:0)";2;"
+HC Energie Karlovy Vary";
+;;HC Sparta Praha;6;"PÁ 18. 09.
+(2:1, 4:0, 0:1)";2;"
+HC VÍTKOVICE STEEL";
+;"4. kolo
+";;;;;;
+;;Bílí Tygři Liberec;4;"NE 20. 09.
+(0:2, 3:0, 1:0)";2;"
+Mountfield HK";
+;;PSG Zlín;2;"NE 20. 09.
+(0:1, 1:0, 1:3)";4;"
+BK Mladá Boleslav";
+;;HC Olomouc;3;"NE 20. 09.
+(0:1, 1:0, 2:1)";2;"
+HC Škoda Plzeň";
+;;HC VÍTKOVICE STEEL;0;"NE 20. 09.
+(0:2, 0:0, 0:1)";3;"
+Piráti Chomutov";
+;;HC VERVA Litvínov;2;"NE 20. 09.
+(1:1, 1:1, 0:1)";3;"
+HC Kometa Brno";
+;;HC Dynamo Pardubice;4;"NE 20. 09.
+(1:0, 2:1, 1:0)";1;"
+HC Oceláři Třinec";
+;;HC Energie Karlovy Vary;6;"NE 20. 09.
+(2:2, 4:0, 0:1)";3;"
+HC Sparta Praha";
+;"5. kolo
+";;;;;;
+;;HC Oceláři Třinec;3;"ČT 24. 09.
+(1:0, 1:1, 1:0)";1;"
+HC VÍTKOVICE STEEL";
+;;HC Škoda Plzeň;4;"PÁ 25. 09.
+(0:0, 0:3, 3:0 - 1:0)";3;"
+HC VERVA Litvínov";
+;;BK Mladá Boleslav;3;"PÁ 25. 09.
+(0:0, 1:0, 2:1)";1;"
+Bílí Tygři Liberec";
+;;Piráti Chomutov;2;"PÁ 25. 09.
+(0:0, 1:0, 0:1 - 0:0 - 1:0)";1;"S
+PSG Zlín";
+;;HC Dynamo Pardubice;4;"PÁ 25. 09.
+(2:0, 2:1, 0:2)";3;"
+HC Energie Karlovy Vary";
+;;HC Kometa Brno;2;"PÁ 25. 09.
+(0:1, 1:0, 1:1 - 0:0 - 0:1)";3;"S
+HC Olomouc";
+;;HC Sparta Praha;4;"PÁ 25. 09.
+(0:1, 2:2, 1:0 - 0:0 - 1:0)";3;"S
+Mountfield HK";
+;"6. kolo
+";;;;;;
+;;HC VERVA Litvínov;3;"NE 27. 09.
+(0:0, 0:1, 2:1 - 0:0 - 1:0)";2;"S
+HC Sparta Praha";
+;;HC Energie Karlovy Vary;2;"NE 27. 09.
+(1:4, 0:1, 1:0)";5;"
+BK Mladá Boleslav";
+;;Bílí Tygři Liberec;2;"NE 27. 09.
+(1:0, 0:0, 1:1)";1;"
+HC Oceláři Třinec";
+;;Mountfield HK;3;"NE 27. 09.
+(2:0, 0:0, 1:1)";1;"
+HC Kometa Brno";
+;;HC Olomouc;5;"NE 27. 09.
+(1:0, 2:1, 2:1)";2;"
+Piráti Chomutov";
+;;HC VÍTKOVICE STEEL;1;"ÚT 29. 09.
+(1:2, 0:2, 0:0)";4;"
+HC Škoda Plzeň";
+;;PSG Zlín;1;"ÚT 01. 12.
+(0:2, 0:0, 1:1)";3;"
+HC Dynamo Pardubice";
+;"7. kolo
+";;;;;;
+;;Bílí Tygři Liberec;5;"ST 30. 09.
+(1:2, 1:1, 2:1 - 0:0 - 1:0)";4;"S
+HC Sparta Praha";
+;;HC Škoda Plzeň;4;"PÁ 02. 10.
+(1:1, 2:2, 1:0)";3;"
+HC Kometa Brno";
+;;HC VERVA Litvínov;3;"PÁ 02. 10.
+(1:1, 1:0, 0:1 - 0:0 - 1:0)";2;"S
+BK Mladá Boleslav";
+;;Piráti Chomutov;0;"PÁ 02. 10.
+(0:0, 0:1, 0:1)";2;"
+HC Energie Karlovy Vary";
+;;HC Dynamo Pardubice;1;"PÁ 02. 10.
+(1:2, 0:1, 0:3)";6;"
+HC VÍTKOVICE STEEL";
+;;Mountfield HK;5;"PÁ 02. 10.
+(1:1, 3:1, 1:1)";3;"
+HC Oceláři Třinec";
+;;PSG Zlín;3;"ÚT 27. 10.
+(3:2, 0:2, 0:0)";4;"
+HC Olomouc";
+;"8. kolo
+";;;;;;
+;;Bílí Tygři Liberec;3;"NE 04. 10.
+(0:1, 1:1, 1:0 - 1:0)";2;"
+Piráti Chomutov";
+;;HC Energie Karlovy Vary;1;"NE 04. 10.
+(0:1, 1:1, 0:0)";2;"
+PSG Zlín";
+;;Mountfield HK;2;"NE 04. 10.
+(0:0, 1:1, 1:5)";6;"
+HC Škoda Plzeň";
+;;HC Olomouc;2;"NE 04. 10.
+(0:0, 1:0, 1:1)";1;"
+HC Dynamo Pardubice";
+;;HC VERVA Litvínov;1;"NE 04. 10.
+(0:2, 1:1, 0:1)";4;"
+HC Oceláři Třinec";
+;;HC Kometa Brno;5;"NE 04. 10.
+(1:1, 1:0, 3:2)";3;"
+HC Sparta Praha";
+;;HC VÍTKOVICE STEEL;0;"ÚT 08. 12.
+(0:0, 0:0, 0:1)";1;"
+BK Mladá Boleslav";
+;"9. kolo
+";;;;;;
+;;HC Oceláři Třinec;1;"PÁ 09. 10.
+(0:1, 1:1, 0:0)";2;"
+HC Kometa Brno";
+;;Piráti Chomutov;1;"PÁ 09. 10.
+(1:0, 0:0, 0:0)";0;"
+HC VERVA Litvínov";
+;;PSG Zlín;3;"PÁ 09. 10.
+(1:1, 1:1, 1:3)";5;"
+HC VÍTKOVICE STEEL";
+;;BK Mladá Boleslav;4;"PÁ 09. 10.
+(0:0, 1:0, 3:1)";1;"
+Mountfield HK";
+;;HC Dynamo Pardubice;1;"PÁ 09. 10.
+(1:1, 0:0, 0:3)";4;"
+Bílí Tygři Liberec";
+;;HC Olomouc;2;"PÁ 09. 10.
+(0:1, 2:0, 0:0)";1;"
+HC Energie Karlovy Vary";
+;;HC Sparta Praha;5;"PÁ 09. 10.
+(2:0, 2:1, 0:3 - 1:0)";4;"
+HC Škoda Plzeň";
+;"10. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;6;"SO 10. 10.
+(3:0, 1:0, 2:1)";1;"
+HC Energie Karlovy Vary";
+;;HC Sparta Praha;7;"NE 11. 10.
+(1:3, 4:1, 2:1)";5;"
+HC Oceláři Třinec";
+;;Bílí Tygři Liberec;0;"NE 11. 10.
+(0:0, 0:0, 0:1)";1;"
+HC Olomouc";
+;;HC Škoda Plzeň;3;"NE 11. 10.
+(2:1, 1:0, 0:0)";1;"
+BK Mladá Boleslav";
+;;Mountfield HK;2;"NE 11. 10.
+(1:0, 1:0, 0:1)";1;"
+PSG Zlín";
+;;HC VERVA Litvínov;1;"NE 11. 10.
+(0:2, 1:0, 0:0)";2;"
+HC Dynamo Pardubice";
+;;HC Kometa Brno;6;"NE 11. 10.
+(2:1, 1:2, 3:1)";4;"
+Piráti Chomutov";
+;"11. kolo
+";;;;;;
+;;HC Oceláři Třinec;5;"ST 14. 10.
+(1:0, 3:1, 1:0)";1;"
+HC Škoda Plzeň";
+;;HC Olomouc;2;"PÁ 16. 10.
+(1:0, 0:1, 1:1 - 0:1)";3;"
+HC VÍTKOVICE STEEL";
+;;BK Mladá Boleslav;4;"PÁ 16. 10.
+(2:0, 1:0, 1:0)";0;"
+HC Kometa Brno";
+;;Piráti Chomutov;2;"PÁ 16. 10.
+(1:0, 0:1, 0:0 - 0:0 - 1:0)";1;"S
+Mountfield HK";
+;;PSG Zlín;1;"PÁ 16. 10.
+(0:1, 0:1, 1:1)";3;"
+Bílí Tygři Liberec";
+;;HC Energie Karlovy Vary;2;"PÁ 16. 10.
+(1:0, 1:3, 0:0)";3;"
+HC VERVA Litvínov";
+;;HC Dynamo Pardubice;2;"PÁ 16. 10.
+(0:1, 2:1, 0:2)";4;"
+HC Sparta Praha";
+;"12. kolo
+";;;;;;
+;;HC Oceláři Třinec;4;"NE 18. 10.
+(2:0, 0:2, 1:1 - 0:0 - 1:0)";3;"S
+BK Mladá Boleslav";
+;;HC Sparta Praha;4;"NE 18. 10.
+(3:0, 1:0, 0:0)";0;"
+Piráti Chomutov";
+;;HC Škoda Plzeň;3;"NE 18. 10.
+(0:0, 0:0, 2:2 - 0:0 - 1:0)";2;"S
+PSG Zlín";
+;;HC VERVA Litvínov;3;"NE 18. 10.
+(0:0, 1:1, 1:1 - 0:0 - 1:0)";2;"S
+HC Olomouc";
+;;Mountfield HK;3;"PO 19. 10.
+(1:0, 1:1, 1:0)";1;"
+HC Energie Karlovy Vary";
+;;HC Kometa Brno;6;"ÚT 20. 10.
+(2:0, 2:1, 2:0)";1;"
+HC Dynamo Pardubice";
+;;Bílí Tygři Liberec;4;"ÚT 20. 10.
+(2:0, 1:1, 1:0)";1;"
+HC VÍTKOVICE STEEL";
+;"13. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;1;"PÁ 23. 10.
+(0:0, 1:0, 0:0)";0;"
+HC VERVA Litvínov";
+;;HC Dynamo Pardubice;2;"PÁ 23. 10.
+(1:0, 0:3, 1:2)";5;"
+Mountfield HK";
+;;PSG Zlín;2;"PÁ 23. 10.
+(0:0, 1:0, 1:2 - 0:1)";3;"
+HC Kometa Brno";
+;;Piráti Chomutov;7;"PÁ 23. 10.
+(1:2, 5:2, 1:1)";5;"
+HC Škoda Plzeň";
+;;BK Mladá Boleslav;4;"PÁ 23. 10.
+(1:0, 0:2, 2:1 - 1:0)";3;"
+HC Sparta Praha";
+;;HC Olomouc;6;"PÁ 23. 10.
+(2:0, 3:0, 1:0)";0;"
+HC Oceláři Třinec";
+;;HC Energie Karlovy Vary;4;"PÁ 23. 10.
+(1:0, 2:4, 1:1)";5;"
+Bílí Tygři Liberec";
+;"14. kolo
+";;;;;;
+;;HC Energie Karlovy Vary;0;"NE 25. 10.
+(0:1, 0:2, 0:3)";6;"
+HC Škoda Plzeň";
+;;PSG Zlín;3;"NE 25. 10.
+(1:2, 1:0, 0:0 - 0:0 - 1:0)";2;"S
+HC VERVA Litvínov";
+;;HC Olomouc;1;"NE 25. 10.
+(1:1, 0:0, 0:2)";3;"
+HC Sparta Praha";
+;;HC Dynamo Pardubice;5;"NE 25. 10.
+(3:0, 0:1, 2:0)";1;"
+BK Mladá Boleslav";
+;;Piráti Chomutov;4;"NE 25. 10.
+(1:3, 0:1, 3:0 - 0:1)";5;"
+HC Oceláři Třinec";
+;;Bílí Tygři Liberec;3;"NE 25. 10.
+(1:0, 1:1, 1:1)";2;"
+HC Kometa Brno";
+;;HC VÍTKOVICE STEEL;2;"ST 28. 10.
+(2:1, 0:0, 0:2)";3;"
+Mountfield HK";
+;"15. kolo
+";;;;;;
+;;HC Oceláři Třinec;2;"PÁ 30. 10.
+(0:1, 1:2, 1:0)";3;"
+HC Energie Karlovy Vary";
+;;BK Mladá Boleslav;2;"PÁ 30. 10.
+(1:0, 1:1, 0:0)";1;"
+Piráti Chomutov";
+;;HC VERVA Litvínov;2;"PÁ 30. 10.
+(0:3, 2:1, 0:1)";5;"
+Bílí Tygři Liberec";
+;;HC Škoda Plzeň;4;"PÁ 30. 10.
+(2:0, 0:1, 2:1)";2;"
+HC Dynamo Pardubice";
+;;Mountfield HK;2;"PÁ 30. 10.
+(1:0, 0:0, 1:0)";0;"
+HC Olomouc";
+;;HC Kometa Brno;2;"PÁ 30. 10.
+(2:0, 0:1, 0:2)";3;"
+HC VÍTKOVICE STEEL";
+;;HC Sparta Praha;4;"ST 06. 01.
+(1:1, 1:1, 2:0)";2;"
+PSG Zlín";
+;"16. kolo
+";;;;;;
+;;PSG Zlín;0;"NE 01. 11.
+(0:1, 0:1, 0:1)";3;"
+HC Oceláři Třinec";
+;;HC VÍTKOVICE STEEL;4;"NE 01. 11.
+(1:1, 2:0, 0:2 - 0:0 - 1:0)";3;"S
+HC Sparta Praha";
+;;HC Energie Karlovy Vary;5;"NE 01. 11.
+(1:0, 4:1, 0:2)";3;"
+HC Kometa Brno";
+;;Bílí Tygři Liberec;4;"NE 01. 11.
+(1:1, 1:1, 2:2 - 0:0 - 0:1)";5;"S
+HC Škoda Plzeň";
+;;HC Dynamo Pardubice;4;"NE 01. 11.
+(0:0, 3:1, 1:0)";1;"
+Piráti Chomutov";
+;;HC Olomouc;3;"NE 01. 11.
+(0:1, 0:2, 3:3)";6;"
+BK Mladá Boleslav";
+;;HC VERVA Litvínov;1;"NE 01. 11.
+(0:3, 0:0, 1:2)";5;"
+Mountfield HK";
+;"17. kolo
+";;;;;;
+;;HC Sparta Praha;1;"ST 14. 10.
+(1:0, 0:1, 0:0 - 0:0 - 0:1)";2;"S
+HC Energie Karlovy Vary";
+;;HC Oceláři Třinec;0;"ST 11. 11.
+(0:1, 0:0, 0:0)";1;"
+HC Dynamo Pardubice";
+;;HC Škoda Plzeň;3;"ST 11. 11.
+(0:1, 1:1, 2:3)";5;"
+HC Olomouc";
+;;Piráti Chomutov;4;"ST 11. 11.
+(2:0, 0:0, 2:0)";0;"
+HC VÍTKOVICE STEEL";
+;;BK Mladá Boleslav;0;"ST 11. 11.
+(0:0, 0:0, 0:0 - 0:0 - 0:1)";1;"S
+PSG Zlín";
+;;Mountfield HK;3;"ÚT 08. 12.
+(1:1, 1:1, 1:1 - 0:1)";4;"
+Bílí Tygři Liberec";
+;;HC Kometa Brno;1;"ÚT 15. 12.
+(0:1, 1:1, 0:1)";3;"
+HC VERVA Litvínov";
+;"18. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;7;"PÁ 13. 11.
+(3:0, 3:0, 1:0)";0;"
+HC Oceláři Třinec";
+;;HC Olomouc;1;"PÁ 13. 11.
+(1:1, 0:2, 0:1)";4;"
+HC Kometa Brno";
+;;HC VERVA Litvínov;1;"PÁ 13. 11.
+(1:2, 0:1, 0:0)";3;"
+HC Škoda Plzeň";
+;;PSG Zlín;2;"PÁ 13. 11.
+(0:0, 1:1, 0:0 - 0:0 - 1:0)";1;"S
+Piráti Chomutov";
+;;Mountfield HK;2;"PÁ 13. 11.
+(0:2, 2:2, 0:1)";5;"
+HC Sparta Praha";
+;;HC Energie Karlovy Vary;3;"PÁ 13. 11.
+(0:1, 1:1, 2:0)";2;"
+HC Dynamo Pardubice";
+;;Bílí Tygři Liberec;6;"PÁ 13. 11.
+(1:0, 3:3, 2:1)";4;"
+BK Mladá Boleslav";
+;"19. kolo
+";;;;;;
+;;HC Sparta Praha;2;"ÚT 20. 10.
+(1:0, 1:1, 0:1 - 0:0 - 0:1)";3;"S
+HC VERVA Litvínov";
+;;HC Dynamo Pardubice;2;"NE 15. 11.
+(1:2, 1:0, 0:1)";3;"
+PSG Zlín";
+;;HC Škoda Plzeň;3;"NE 15. 11.
+(1:0, 1:0, 1:2)";2;"
+HC VÍTKOVICE STEEL";
+;;HC Oceláři Třinec;2;"NE 15. 11.
+(0:0, 2:2, 0:0 - 0:1)";3;"
+Bílí Tygři Liberec";
+;;Piráti Chomutov;2;"NE 15. 11.
+(1:0, 0:0, 1:0)";0;"
+HC Olomouc";
+;;BK Mladá Boleslav;4;"NE 15. 11.
+(1:0, 1:2, 1:1 - 1:0)";3;"
+HC Energie Karlovy Vary";
+;;HC Kometa Brno;5;"ÚT 24. 11.
+(2:1, 2:0, 1:0)";1;"
+Mountfield HK";
+;"20. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;4;"ÚT 17. 11.
+(1:1, 0:3, 3:1)";5;"
+HC Dynamo Pardubice";
+;;HC Energie Karlovy Vary;2;"ÚT 17. 11.
+(0:1, 1:1, 1:2)";4;"
+Piráti Chomutov";
+;;HC Olomouc;3;"ÚT 17. 11.
+(2:1, 0:1, 1:0)";2;"
+PSG Zlín";
+;;HC Oceláři Třinec;1;"ÚT 17. 11.
+(0:0, 1:0, 0:1 - 0:1)";2;"
+Mountfield HK";
+;;HC Škoda Plzeň;1;"ÚT 17. 11.
+(1:0, 0:0, 0:0)";0;"
+HC Kometa Brno";
+;;BK Mladá Boleslav;5;"ÚT 17. 11.
+(2:2, 2:1, 1:0)";3;"
+HC VERVA Litvínov";
+;;HC Sparta Praha;5;"ST 18. 11.
+(0:0, 3:2, 1:2 - 0:0 - 1:0)";4;"S
+Bílí Tygři Liberec";
+;"21. kolo
+";;;;;;
+;;HC Oceláři Třinec;4;"PÁ 20. 11.
+(1:0, 0:1, 3:1)";2;"
+HC VERVA Litvínov";
+;;BK Mladá Boleslav;4;"PÁ 20. 11.
+(3:2, 0:0, 1:0)";2;"
+HC VÍTKOVICE STEEL";
+;;PSG Zlín;3;"PÁ 20. 11.
+(0:0, 1:5, 2:0)";5;"
+HC Energie Karlovy Vary";
+;;HC Škoda Plzeň;3;"PÁ 20. 11.
+(2:1, 1:1, 0:1 - 0:0 - 0:1)";4;"S
+Mountfield HK";
+;;Piráti Chomutov;3;"PÁ 20. 11.
+(1:0, 0:2, 1:0 - 1:0)";2;"
+Bílí Tygři Liberec";
+;;HC Dynamo Pardubice;4;"PÁ 20. 11.
+(1:2, 0:1, 2:0 - 0:0 - 1:0)";3;"S
+HC Olomouc";
+;;HC Sparta Praha;9;"ÚT 19. 01.
+(6:0, 1:2, 2:1)";3;"
+HC Kometa Brno";
+;"22. kolo
+";;;;;;
+;;HC Energie Karlovy Vary;1;"NE 22. 11.
+(0:0, 1:0, 0:2)";2;"
+HC Olomouc";
+;;HC Kometa Brno;3;"NE 22. 11.
+(2:0, 1:0, 0:2)";2;"
+HC Oceláři Třinec";
+;;HC VERVA Litvínov;3;"NE 22. 11.
+(2:0, 0:1, 0:1 - 0:0 - 1:0)";2;"S
+Piráti Chomutov";
+;;HC Škoda Plzeň;2;"NE 22. 11.
+(0:0, 0:1, 2:3)";4;"
+HC Sparta Praha";
+;;Bílí Tygři Liberec;2;"NE 22. 11.
+(2:0, 0:0, 0:1)";1;"
+HC Dynamo Pardubice";
+;;Mountfield HK;1;"NE 22. 11.
+(0:1, 1:0, 0:0 - 0:0 - 0:1)";2;"S
+BK Mladá Boleslav";
+;;HC VÍTKOVICE STEEL;3;"ÚT 24. 11.
+(1:1, 1:0, 0:1 - 0:0 - 1:0)";2;"S
+PSG Zlín";
+;"23. kolo
+";;;;;;
+;;HC Dynamo Pardubice;3;"ÚT 24. 11.
+(2:0, 0:2, 1:1 - 0:0 - 0:1)";4;"S
+HC VERVA Litvínov";
+;;HC Oceláři Třinec;4;"PÁ 27. 11.
+(2:0, 1:2, 1:0)";2;"
+HC Sparta Praha";
+;;HC Olomouc;2;"PÁ 27. 11.
+(0:0, 0:0, 2:1)";1;"
+Bílí Tygři Liberec";
+;;PSG Zlín;2;"PÁ 27. 11.
+(0:0, 2:0, 0:1)";1;"
+Mountfield HK";
+;;Piráti Chomutov;4;"PÁ 27. 11.
+(1:0, 1:1, 2:1)";2;"
+HC Kometa Brno";
+;;BK Mladá Boleslav;7;"PÁ 27. 11.
+(4:0, 2:4, 0:2 - 0:0 - 1:0)";6;"S
+HC Škoda Plzeň";
+;;HC Energie Karlovy Vary;1;"PÁ 27. 11.
+(1:2, 0:0, 0:1)";3;"
+HC VÍTKOVICE STEEL";
+;"24. kolo
+";;;;;;
+;;HC VERVA Litvínov;1;"NE 29. 11.
+(0:1, 0:1, 1:2)";4;"
+HC Energie Karlovy Vary";
+;;HC VÍTKOVICE STEEL;4;"NE 29. 11.
+(1:0, 1:0, 2:0)";0;"
+HC Olomouc";
+;;Bílí Tygři Liberec;5;"NE 29. 11.
+(1:0, 3:0, 1:1)";1;"
+PSG Zlín";
+;;Mountfield HK;2;"NE 29. 11.
+(0:1, 2:2, 0:1)";4;"
+Piráti Chomutov";
+;;HC Sparta Praha;3;"NE 29. 11.
+(0:0, 1:0, 2:0)";0;"
+HC Dynamo Pardubice";
+;;HC Škoda Plzeň;3;"NE 29. 11.
+(1:0, 1:1, 0:1 - 0:0 - 1:0)";2;"S
+HC Oceláři Třinec";
+;;HC Kometa Brno;3;"ÚT 01. 12.
+(1:0, 2:0, 0:0)";0;"
+BK Mladá Boleslav";
+;"25. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;1;"PÁ 04. 12.
+(0:1, 0:0, 1:2)";3;"
+Bílí Tygři Liberec";
+;;HC Olomouc;3;"PÁ 04. 12.
+(2:0, 0:0, 1:0)";0;"
+HC VERVA Litvínov";
+;;PSG Zlín;4;"PÁ 04. 12.
+(2:1, 0:0, 2:1)";2;"
+HC Škoda Plzeň";
+;;Piráti Chomutov;3;"PÁ 04. 12.
+(1:0, 1:1, 1:0)";1;"
+HC Sparta Praha";
+;;BK Mladá Boleslav;4;"PÁ 04. 12.
+(1:0, 2:1, 1:0)";1;"
+HC Oceláři Třinec";
+;;HC Energie Karlovy Vary;1;"PÁ 04. 12.
+(0:1, 0:0, 1:1)";2;"
+Mountfield HK";
+;;HC Dynamo Pardubice;3;"PÁ 04. 12.
+(1:0, 2:0, 0:1)";1;"
+HC Kometa Brno";
+;"26. kolo
+";;;;;;
+;;HC Oceláři Třinec;1;"NE 06. 12.
+(0:1, 1:3, 0:0)";4;"
+HC Olomouc";
+;;HC Škoda Plzeň;4;"NE 06. 12.
+(0:0, 3:0, 1:0)";0;"
+Piráti Chomutov";
+;;HC Kometa Brno;1;"NE 06. 12.
+(0:1, 0:1, 1:0)";2;"
+PSG Zlín";
+;;Bílí Tygři Liberec;7;"NE 06. 12.
+(2:0, 3:0, 2:1)";1;"
+HC Energie Karlovy Vary";
+;;Mountfield HK;4;"NE 06. 12.
+(1:0, 2:0, 1:1)";1;"
+HC Dynamo Pardubice";
+;;HC Sparta Praha;4;"NE 06. 12.
+(1:0, 1:1, 2:2)";3;"
+BK Mladá Boleslav";
+;;HC VERVA Litvínov;3;"NE 06. 12.
+(2:0, 0:1, 1:0)";1;"
+HC VÍTKOVICE STEEL";
+;"27. kolo
+";;;;;;
+;;HC Oceláři Třinec;4;"PÁ 11. 12.
+(1:0, 1:3, 1:0 - 0:0 - 1:0)";3;"S
+Piráti Chomutov";
+;;HC Škoda Plzeň;1;"PÁ 11. 12.
+(1:1, 0:0, 0:2)";3;"
+HC Energie Karlovy Vary";
+;;BK Mladá Boleslav;2;"PÁ 11. 12.
+(0:2, 1:1, 1:1)";4;"
+HC Dynamo Pardubice";
+;;HC VERVA Litvínov;3;"PÁ 11. 12.
+(1:0, 1:1, 0:1 - 1:0)";2;"
+PSG Zlín";
+;;Mountfield HK;5;"PÁ 11. 12.
+(2:0, 2:2, 1:0)";2;"
+HC VÍTKOVICE STEEL";
+;;HC Olomouc;5;"PÁ 11. 12.
+(2:0, 1:0, 2:1)";1;"
+HC Sparta Praha";
+;;HC Kometa Brno;1;"PÁ 11. 12.
+(0:0, 1:1, 0:0 - 0:0 - 0:1)";2;"S
+Bílí Tygři Liberec";
+;"28. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;0;"NE 13. 12.
+(0:0, 0:1, 0:0)";1;"
+HC Kometa Brno";
+;;PSG Zlín;4;"NE 13. 12.
+(2:0, 2:0, 0:0)";0;"
+HC Sparta Praha";
+;;HC Energie Karlovy Vary;2;"NE 13. 12.
+(1:0, 0:0, 1:0)";0;"
+HC Oceláři Třinec";
+;;Bílí Tygři Liberec;1;"NE 13. 12.
+(0:0, 1:0, 0:0)";0;"
+HC VERVA Litvínov";
+;;HC Dynamo Pardubice;2;"NE 13. 12.
+(1:0, 0:3, 1:1)";4;"
+HC Škoda Plzeň";
+;;Piráti Chomutov;7;"NE 13. 12.
+(2:2, 2:1, 3:3)";6;"
+BK Mladá Boleslav";
+;;HC Olomouc;1;"NE 13. 12.
+(1:0, 0:0, 0:2)";2;"
+Mountfield HK";
+;"29. kolo
+";;;;;;
+;;HC Oceláři Třinec;3;"ÚT 22. 12.
+(1:0, 0:1, 2:0)";1;"
+PSG Zlín";
+;;HC Škoda Plzeň;1;"ÚT 22. 12.
+(0:0, 0:1, 1:2)";3;"
+Bílí Tygři Liberec";
+;;Mountfield HK;5;"ÚT 22. 12.
+(2:1, 1:0, 2:0)";1;"
+HC VERVA Litvínov";
+;;HC Kometa Brno;3;"ÚT 22. 12.
+(1:0, 1:2, 1:1 - 0:0 - 0:1)";4;"S
+HC Energie Karlovy Vary";
+;;HC Sparta Praha;5;"ST 23. 12.
+(2:0, 1:0, 2:0)";0;"
+HC VÍTKOVICE STEEL";
+;;Piráti Chomutov;4;"ST 23. 12.
+(1:1, 2:0, 1:0)";1;"
+HC Dynamo Pardubice";
+;;BK Mladá Boleslav;3;"ST 23. 12.
+(1:0, 2:0, 0:0)";0;"
+HC Olomouc";
+;"30. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;5;"SO 26. 12.
+(3:0, 2:1, 0:3)";4;"
+Piráti Chomutov";
+;;HC Energie Karlovy Vary;3;"SO 26. 12.
+(0:0, 1:3, 2:2)";5;"
+HC Sparta Praha";
+;;Bílí Tygři Liberec;5;"SO 26. 12.
+(0:1, 3:1, 2:2)";4;"
+Mountfield HK";
+;;HC Dynamo Pardubice;1;"SO 26. 12.
+(0:1, 0:1, 1:1)";3;"
+HC Oceláři Třinec";
+;;HC Olomouc;1;"SO 26. 12.
+(0:0, 0:1, 1:2)";3;"
+HC Škoda Plzeň";
+;;PSG Zlín;4;"SO 26. 12.
+(1:1, 2:1, 0:1 - 0:0 - 1:0)";3;"S
+BK Mladá Boleslav";
+;;HC VERVA Litvínov;0;"SO 26. 12.
+(0:1, 0:0, 0:0)";1;"
+HC Kometa Brno";
+;"31. kolo
+";;;;;;
+;;HC Oceláři Třinec;3;"PO 28. 12.
+(1:0, 1:0, 1:0)";0;"
+HC VÍTKOVICE STEEL";
+;;HC Škoda Plzeň;2;"PO 28. 12.
+(1:0, 0:0, 1:1)";1;"
+HC VERVA Litvínov";
+;;BK Mladá Boleslav;3;"PO 28. 12.
+(1:3, 1:2, 1:0)";5;"
+Bílí Tygři Liberec";
+;;Piráti Chomutov;1;"PO 28. 12.
+(1:2, 0:2, 0:1)";5;"
+PSG Zlín";
+;;HC Sparta Praha;5;"PO 28. 12.
+(1:0, 4:0, 0:2)";2;"
+Mountfield HK";
+;;HC Dynamo Pardubice;3;"PO 28. 12.
+(0:0, 2:0, 1:0)";0;"
+HC Energie Karlovy Vary";
+;;HC Kometa Brno;4;"PO 28. 12.
+(3:1, 0:2, 0:0 - 1:0)";3;"
+HC Olomouc";
+;"32. kolo
+";;;;;;
+;;Bílí Tygři Liberec;3;"ST 30. 12.
+(1:1, 1:0, 1:0)";1;"
+HC Oceláři Třinec";
+;;HC VÍTKOVICE STEEL;2;"ST 30. 12.
+(1:1, 1:0, 0:3)";4;"
+HC Škoda Plzeň";
+;;PSG Zlín;2;"ST 30. 12.
+(0:0, 0:0, 2:1)";1;"
+HC Dynamo Pardubice";
+;;HC VERVA Litvínov;3;"ST 30. 12.
+(1:1, 0:0, 2:0)";1;"
+HC Sparta Praha";
+;;Mountfield HK;2;"ST 30. 12.
+(1:0, 0:0, 1:1)";1;"
+HC Kometa Brno";
+;;HC Olomouc;2;"ST 30. 12.
+(0:0, 1:1, 0:0 - 0:0 - 1:0)";1;"S
+Piráti Chomutov";
+;;HC Energie Karlovy Vary;4;"ST 30. 12.
+(0:0, 2:1, 2:0)";1;"
+BK Mladá Boleslav";
+;"33. kolo
+";;;;;;
+;;HC Kometa Brno;5;"NE 03. 01.
+(2:1, 1:1, 2:0)";2;"
+HC Škoda Plzeň";
+;;HC Sparta Praha;5;"NE 03. 01.
+(1:1, 3:0, 1:1)";2;"
+Bílí Tygři Liberec";
+;;PSG Zlín;4;"NE 03. 01.
+(0:0, 1:0, 3:2)";2;"
+HC Olomouc";
+;;HC Dynamo Pardubice;4;"NE 03. 01.
+(0:2, 2:1, 1:0 - 1:0)";3;"
+HC VÍTKOVICE STEEL";
+;;BK Mladá Boleslav;2;"NE 03. 01.
+(0:0, 1:0, 1:0)";0;"
+HC VERVA Litvínov";
+;;Piráti Chomutov;3;"NE 03. 01.
+(0:0, 2:0, 1:1)";1;"
+HC Energie Karlovy Vary";
+;;HC Oceláři Třinec;7;"ÚT 05. 01.
+(0:0, 3:3, 3:3 - 0:0 - 1:0)";6;"S
+Mountfield HK";
+;"34. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;4;"PÁ 08. 01.
+(1:0, 2:1, 1:0)";1;"
+BK Mladá Boleslav";
+;;HC VERVA Litvínov;2;"PÁ 08. 01.
+(0:1, 1:0, 1:0)";1;"
+HC Oceláři Třinec";
+;;HC Energie Karlovy Vary;1;"PÁ 08. 01.
+(0:1, 1:0, 0:0 - 0:0 - 0:1)";2;"S
+PSG Zlín";
+;;Mountfield HK;1;"PÁ 08. 01.
+(0:1, 1:1, 0:1)";3;"
+HC Škoda Plzeň";
+;;Bílí Tygři Liberec;7;"PÁ 08. 01.
+(5:1, 1:0, 1:0)";1;"
+Piráti Chomutov";
+;;HC Olomouc;4;"PÁ 08. 01.
+(0:2, 2:1, 1:0 - 1:0)";3;"
+HC Dynamo Pardubice";
+;;HC Kometa Brno;2;"PÁ 08. 01.
+(0:0, 2:1, 0:3)";4;"
+HC Sparta Praha";
+;"35. kolo
+";;;;;;
+;;HC Dynamo Pardubice;2;"NE 10. 01.
+(1:1, 1:1, 0:1)";3;"
+Bílí Tygři Liberec";
+;;HC Oceláři Třinec;1;"NE 10. 01.
+(1:0, 0:2, 0:0)";2;"
+HC Kometa Brno";
+;;PSG Zlín;3;"NE 10. 01.
+(0:0, 3:1, 0:0)";1;"
+HC VÍTKOVICE STEEL";
+;;HC Sparta Praha;1;"NE 10. 01.
+(0:1, 0:1, 1:0)";2;"
+HC Škoda Plzeň";
+;;HC Olomouc;3;"NE 10. 01.
+(1:0, 1:0, 1:0)";0;"
+HC Energie Karlovy Vary";
+;;BK Mladá Boleslav;2;"NE 10. 01.
+(1:0, 1:0, 0:2 - 0:0 - 0:1)";3;"S
+Mountfield HK";
+;;Piráti Chomutov;2;"NE 10. 01.
+(0:0, 0:1, 2:1 - 0:1)";3;"
+HC VERVA Litvínov";
+;"36. kolo
+";;;;;;
+;;HC Kometa Brno;3;"ÚT 12. 01.
+(0:0, 1:0, 2:1)";1;"
+Piráti Chomutov";
+;;HC Sparta Praha;4;"ÚT 12. 01.
+(0:1, 3:1, 1:1)";3;"
+HC Oceláři Třinec";
+;;HC VÍTKOVICE STEEL;5;"PÁ 15. 01.
+(4:0, 0:2, 1:0)";2;"
+HC Energie Karlovy Vary";
+;;HC VERVA Litvínov;3;"PÁ 15. 01.
+(1:0, 0:2, 1:0 - 0:0 - 1:0)";2;"S
+HC Dynamo Pardubice";
+;;HC Škoda Plzeň;1;"PÁ 15. 01.
+(1:0, 0:0, 0:3)";3;"
+BK Mladá Boleslav";
+;;Mountfield HK;3;"PÁ 15. 01.
+(2:1, 0:0, 1:0)";1;"
+PSG Zlín";
+;;Bílí Tygři Liberec;4;"PÁ 15. 01.
+(0:0, 3:0, 1:0)";0;"
+HC Olomouc";
+;"37. kolo
+";;;;;;
+;;HC Energie Karlovy Vary;4;"NE 17. 01.
+(2:2, 2:1, 0:0)";3;"
+HC VERVA Litvínov";
+;;PSG Zlín;2;"NE 17. 01.
+(0:0, 1:0, 1:1)";1;"
+Bílí Tygři Liberec";
+;;HC Škoda Plzeň;1;"NE 17. 01.
+(0:0, 0:2, 1:1)";3;"
+HC Oceláři Třinec";
+;;HC Olomouc;3;"NE 17. 01.
+(1:1, 0:1, 1:0 - 0:0 - 1:0)";2;"S
+HC VÍTKOVICE STEEL";
+;;HC Dynamo Pardubice;4;"NE 17. 01.
+(0:2, 4:2, 0:2)";6;"
+HC Sparta Praha";
+;;BK Mladá Boleslav;4;"NE 17. 01.
+(2:0, 1:0, 1:1)";1;"
+HC Kometa Brno";
+;;Piráti Chomutov;"02. 02.
+17:30";;;"T
+Mountfield HK";
+;"38. kolo
+";;;;;;
+;;HC Oceláři Třinec;7;"PÁ 22. 01.
+(2:0, 4:0, 1:0)";0;"
+BK Mladá Boleslav";
+;;HC VERVA Litvínov;1;"PÁ 22. 01.
+(0:0, 1:1, 0:1)";2;"
+HC Olomouc";
+;;HC Škoda Plzeň;1;"PÁ 22. 01.
+(0:2, 1:1, 0:1)";4;"
+PSG Zlín";
+;;Mountfield HK;4;"PÁ 22. 01.
+(2:2, 1:0, 1:0)";2;"
+HC Energie Karlovy Vary";
+;;HC Kometa Brno;2;"PÁ 22. 01.
+(0:1, 0:2, 2:0)";3;"
+HC Dynamo Pardubice";
+;;Bílí Tygři Liberec;2;"PÁ 22. 01.
+(1:0, 0:0, 1:0)";0;"
+HC VÍTKOVICE STEEL";
+;;HC Sparta Praha;7;"PÁ 22. 01.
+(3:0, 2:0, 2:1)";1;"
+Piráti Chomutov";
+;"39. kolo
+";;;;;;
+;;PSG Zlín;4;"NE 24. 01.
+(1:0, 1:1, 2:0)";1;"
+HC Kometa Brno";
+;;HC Energie Karlovy Vary;2;"NE 24. 01.
+(1:2, 1:1, 0:4)";7;"
+Bílí Tygři Liberec";
+;;HC VÍTKOVICE STEEL;5;"NE 24. 01.
+(0:1, 2:2, 2:1 - 0:0 - 1:0)";4;"S
+HC VERVA Litvínov";
+;;HC Olomouc;1;"NE 24. 01.
+(0:0, 1:1, 0:0 - 0:1)";2;"
+HC Oceláři Třinec";
+;;HC Dynamo Pardubice;3;"NE 24. 01.
+(0:0, 1:2, 2:0)";2;"
+Mountfield HK";
+;;Piráti Chomutov;4;"NE 24. 01.
+(2:1, 1:1, 1:1)";3;"
+HC Škoda Plzeň";
+;;BK Mladá Boleslav;0;"NE 24. 01.
+(0:0, 0:2, 0:0)";2;"
+HC Sparta Praha";
+;"40. kolo
+";;;;;;
+;;HC VÍTKOVICE STEEL;1;"ÚT 26. 01.
+(0:0, 0:2, 1:0)";2;"
+Mountfield HK";
+;;PSG Zlín;4;"ÚT 26. 01.
+(0:0, 1:1, 3:0)";1;"
+HC VERVA Litvínov";
+;;Piráti Chomutov;4;"ÚT 26. 01.
+(1:1, 0:1, 3:0)";2;"
+HC Oceláři Třinec";
+;;Bílí Tygři Liberec;2;"ÚT 26. 01.
+(0:0, 0:0, 2:0)";0;"
+HC Kometa Brno";
+;;HC Energie Karlovy Vary;0;"ÚT 26. 01.
+(0:1, 0:1, 0:1)";3;"
+HC Škoda Plzeň";
+;;HC Dynamo Pardubice;0;"ÚT 26. 01.
+(0:1, 0:0, 0:4)";5;"
+BK Mladá Boleslav";
+;;HC Sparta Praha;2;"ÚT 26. 01.
+(0:1, 1:0, 0:0 - 0:0 - 1:0)";1;"S
+HC Olomouc";
+;"41. kolo
+";;;;;;
+;;HC Oceláři Třinec;2;"PÁ 29. 01.
+(0:0, 1:0, 1:0)";0;"
+HC Energie Karlovy Vary";
+;;BK Mladá Boleslav;5;"PÁ 29. 01.
+(2:1, 2:0, 1:1)";2;"
+Piráti Chomutov";
+;;HC Škoda Plzeň;4;"PÁ 29. 01.
+(1:0, 1:1, 2:0)";1;"
+HC Dynamo Pardubice";
+;;HC VERVA Litvínov;2;"PÁ 29. 01.
+(0:1, 1:0, 1:1 - 0:0 - 0:1)";3;"S
+Bílí Tygři Liberec";
+;;Mountfield HK;4;"PÁ 29. 01.
+(2:2, 0:1, 1:0 - 0:0 - 1:0)";3;"S
+HC Olomouc";
+;;HC Kometa Brno;5;"PÁ 29. 01.
+(1:1, 4:0, 0:1)";2;"
+HC VÍTKOVICE STEEL";
+;;HC Sparta Praha;"03. 02.
+18:30";;;"
+PSG Zlín";
