@@ -11,9 +11,8 @@
         (csv/read-csv in-file :separator \;)))
     (throw (Exception. "File not found"))))
 
-
 (defn remove-line-ends [string]
-  (str/replace string "\n" ""))
+  (str/replace string #"[\n|S\n]" ""))
 
 (defn extract-periods [periods-string]
   (re-seq #".{1}:.{1}" periods-string))
@@ -24,6 +23,8 @@
    :periods (extract-periods (remove-line-ends (nth dirty-game 4)))})
 
 (convert-game ["" "" "HC Škoda Plzeň" "5" "PÁ 11. 09.\n(3:1, 1:0, 1:0)" "1" "\nHC Energie Karlovy Vary" ""])
+(convert-game ["" "" "BK Mladá Boleslav" "1" "PÁ 18. 09.\n(0:0, 0:0, 1:1 - 0:0 - 0:1)" "2" "S\nHC Olomouc" ""])
+
 
 (defn get-round [dirty-game]
   (if (.contains (nth dirty-game 1) "kolo")

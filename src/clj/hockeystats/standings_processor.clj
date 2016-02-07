@@ -70,3 +70,4 @@
 
 (def games (csv/convert-games-from-csv "resources/games.csv"))
 (sorted-tables-for-rounds games)
+
