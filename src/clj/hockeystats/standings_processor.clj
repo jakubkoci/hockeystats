@@ -2,17 +2,6 @@
   (:require [hockeystats.csv-data-processor :as csv]))
 
 
-(def games (csv/convert-games-from-csv "resources/games.csv"))
-
-(defn filter-by-round [game]
-  (= (:round game) "1"))
-
-(def games-round1 (filter filter-by-round games))
-
-games
-
-games-round1
-
 (defn goals-home-team [periods]
   (reduce
     (fn [sum period] (+ (Integer/parseInt (subs period 0 1)) sum))
@@ -41,21 +30,43 @@ games-round1
 (defn game-to-points-helper [game-with-round]
   (game-to-points (:game game-with-round)))
 
-(game-to-points (:game (first games-round1)))
 
-(def table-for-round (conj (into {} (map game-to-points-helper games-round1))))
+(defn filter-by-round [round]
+  (fn [game]
+    (= (:round game) round)))
 
-(defn sort-by-points [table-for-round]
+(defn table-for-round [games round]
+  (->> (filter (filter-by-round (str round)) games)
+       (map game-to-points-helper)
+       (into {})
+       (conj)))
+
+(defn tables-for-rounds [games]
+  (loop [n 2
+         result []]
+    (if (>= (count result) (count games))
+      result
+      (let [previous-table (last result)
+            current-table (table-for-round games n)]
+        (recur (inc n) (conj result (merge-with + previous-table current-table)))))))
+
+
+(defn table-after-round [games round]
+  (loop [n 1
+         result (table-for-round games (str (- n 1)))]
+    (if (>= n round)
+      result
+      (recur (inc n) (merge-with + result (table-for-round games n))))))
+
+
+(defn sort-by-points [table]
   (into (sorted-map-by (fn [key1 key2]
-                           (compare [(get table-for-round key2) key2]
-                                    [(get table-for-round key1) key1])))
-          table-for-round))
+                           (compare [(get table key2) key2]
+                                    [(get table key1) key1])))
+          table))
 
-(sort-by-points table-for-round)
+(defn sorted-tables-for-rounds [games]
+  (map sort-by-points (tables-for-rounds games)))
 
-(def teammap
-  {"HC Škoda Plzeň" 3
-   "HC Energie Karlovy Vary" 0})
-
-(get teammap "HC Škoda Plzeň")
-(update-in teammap ["HC Škoda Plzeň"] + 3)
+(def games (csv/convert-games-from-csv "resources/games.csv"))
+(sorted-tables-for-rounds games)
