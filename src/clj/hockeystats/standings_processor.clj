@@ -12,11 +12,10 @@
     (fn [sum period] (+ (Integer/parseInt (subs period 2 3)) sum))
     0 periods))
 
-(goals-home-team '("3:1" "1:0" "1:0"))
-(goals-visitor-team '("3:1" "1:0" "1:0"))
 
 (defn get-winner-points [periods]
   (if (> (count periods) 3) 2 3))
+
 
 (defn game-to-points [game]
   (let [periods (:periods game)
@@ -27,6 +26,7 @@
       {(:team1 game) (- 3 winner-points)
        (:team2 game) winner-points})))
 
+
 (defn game-to-points-helper [game-with-round]
   (game-to-points (:game game-with-round)))
 
@@ -35,11 +35,13 @@
   (fn [game]
     (= (:round game) round)))
 
+
 (defn table-for-round [games round]
   (->> (filter (filter-by-round (str round)) games)
        (map game-to-points-helper)
        (into {})
        (conj)))
+
 
 (defn tables-for-rounds [games]
   (loop [n 2
@@ -65,8 +67,10 @@
                                     [(get table key1) key1])))
           table))
 
+
 (defn sorted-tables-for-rounds [games]
   (map sort-by-points (tables-for-rounds games)))
+
 
 (def games (csv/convert-games-from-csv "resources/games.csv"))
 (sorted-tables-for-rounds games)

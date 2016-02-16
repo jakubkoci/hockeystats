@@ -6,8 +6,12 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/data.csv "0.1.3"]
                  [compojure "1.4.0"]
-                 [ring/ring-jetty-adapter "1.4.0"]]
+                 [ring/ring-jetty-adapter "1.4.0"]
+                 [pjstadig/humane-test-output "0.7.1"]]
+  :injections [(require 'pjstadig.humane-test-output)
+               (pjstadig.humane-test-output/activate!)]
   :source-paths ["src/clj"]
+  :test-paths ["test/clj"]
   :main hockeystats.server
   :plugins [[lein-cljsbuild "1.1.2"]]
   :cljsbuild {:builds [{

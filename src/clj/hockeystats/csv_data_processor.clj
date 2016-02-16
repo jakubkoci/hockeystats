@@ -11,28 +11,26 @@
         (csv/read-csv in-file :separator \;)))
     (throw (Exception. "File not found"))))
 
+
+;; TODO this remove all of S, but I want to remove only the first one
 (defn remove-line-ends [string]
   (str/replace string #"[\n|S\n]" ""))
 
+
 (defn extract-periods [periods-string]
   (re-seq #".{1}:.{1}" periods-string))
+
 
 (defn convert-game [dirty-game]
   {:team1 (remove-line-ends (nth dirty-game 2))
    :team2 (remove-line-ends (nth dirty-game 6))
    :periods (extract-periods (remove-line-ends (nth dirty-game 4)))})
 
-(convert-game ["" "" "HC Škoda Plzeň" "5" "PÁ 11. 09.\n(3:1, 1:0, 1:0)" "1" "\nHC Energie Karlovy Vary" ""])
-(convert-game ["" "" "BK Mladá Boleslav" "1" "PÁ 18. 09.\n(0:0, 0:0, 1:1 - 0:0 - 0:1)" "2" "S\nHC Olomouc" ""])
-
 
 (defn get-round [dirty-game]
   (if (.contains (nth dirty-game 1) "kolo")
     (nth (str/split (nth dirty-game 1) #"[\\.\s]+") 0)
     nil))
-
-(get-round ["" "1. kolo\n" "" "" "" "" "" ""])
-(get-round ["" "11. kolo\n" "" "" "" "" "" ""])
 
 
 (defn convert-games [games]
