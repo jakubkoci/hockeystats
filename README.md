@@ -1,14 +1,20 @@
-# hockeystats
+# Hockeystats
 
-A Clojure library designed to ... well, that part is up to you.
+Simple experimental pet project to learn and practice Clojure and ClojureScript languages.
 
-## Usage
+# Features
 
-FIXME
+Basic goal is based on comparing standings of ice hockey teams during whole season after each round.
+
+### Input
+
+Data about ice hockey games (rivals, final score, ...) from Czech ice hockey top league for current season on hokej.cz saved as CSV file.
+
+### Expected output
+
+Chart or some graphics of standings for each round and its changes during these rounds.
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
