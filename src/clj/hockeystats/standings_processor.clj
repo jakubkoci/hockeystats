@@ -72,6 +72,7 @@
   (map sort-by-points (tables-for-rounds games)))
 
 
-(def games (csv/convert-games-from-csv "resources/games.csv"))
-(sorted-tables-for-rounds games)
+;; Usage example
+;; (def games (csv/convert-games-from-csv "resources/games.csv"))
+;; (sorted-tables-for-rounds games)
 

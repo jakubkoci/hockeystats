@@ -49,7 +49,9 @@
 (defn convert-games-from-csv [filename]
   (convert-games (load-games filename)))
 
-(convert-games-from-csv "resources/games.csv")
+
+;; Usage example
+;; (convert-games-from-csv "resources/games.csv")
 
 
 
