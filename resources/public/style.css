@@ -1,0 +1,38 @@
+body {
+  font-family: 'Verdana';
+  font-size: 10px;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.standings-table,
+.standings-chart {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+path {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+#teams-table table {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#slider {
+  margin-top: 2em;
+  width: 100%;
+}

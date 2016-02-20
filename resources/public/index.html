@@ -2,52 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <style>
+    <title>Ice hockey standings</title>
 
-      body { font: 12px Arial;}
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css"><![endif]-->
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"><!--<![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/layouts/pricing-old-ie.css"><![endif]-->
 
-      path {
-          stroke: steelblue;
-          stroke-width: 2;
-          fill: none;
-      }
-
-      .axis path,
-      .axis line {
-          fill: none;
-          stroke: grey;
-          stroke-width: 1;
-          shape-rendering: crispEdges;
-      }
-
-      #teams-table {
-        width: 100%;
-        height: 500px;
-      }
-
-      #slider {
-        width: 500px;
-      }
-
-    </style>
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="style.css"><!--<![endif]-->
   </head>
   <body>
 
-    <div id="teams-table">
-      <table>
-        <thead>
-          <th>Place</th>
-          <th>Team</th>
-          <th>Points</th>
-        </thead>
-        <tbody id="teams-table-body"></tbody>
-      </table>
-    </div>
+    <div id="content">
 
-    <input id="slider" type="range" name="points" min="1" max="40" step="1" value="1">
+      <div class="standings-table pure-g">
+        <div class="pure-u-1-1">
+          <div id="teams-table">
+            <table class="pure-table">
+              <thead>
+                <th>Place</th>
+                <th>Team</th>
+                <th>Points</th>
+              </thead>
+              <tbody id="teams-table-body"></tbody>
+            </table>
+          </div>
 
-    <div id="teams-chart">
+          <input id="slider" type="range" name="points" min="1" max="40" step="1" value="1">
+        </div>
+      </div>
 
+
+      <div class="standings-chart pure-g">
+        <div class="pure-u-1-1">
+          <div id="teams-chart"></div>
+        </div>
+      </div>
     </div>
 
     <script src="http://d3js.org/d3.v3.min.js"></script>

@@ -32,15 +32,22 @@
 
 ;; Handle table re-render when change round by slider
 (defn handle-slider [event]
-  (.log js/console event.target.value)
   (render-table event.target.value))
 
 (defn render-table [round]
   (set! (. table -innerHTML) "")
-  (doseq [team (keys (sort-by-points (nth @standings (js/parseInt round))))]
-    (.log js/console team)
-    (let [table-row (.createElement js/document "tr")]
-      (.appendChild table-row (.createTextNode js/document team))
+  (doseq [team-key-value-pair (sort-by-points (nth @standings (js/parseInt round)))]
+    (let [team (vec team-key-value-pair)
+          table-row (.createElement js/document "tr")
+          table-cell-place (.createElement js/document "td")
+          table-cell-team (.createElement js/document "td")
+          table-cell-points (.createElement js/document "td")]
+      (.appendChild table-cell-place (.createTextNode js/document ""))
+      (.appendChild table-cell-team (.createTextNode js/document (nth team 0)))
+      (.appendChild table-cell-points (.createTextNode js/document (nth team 1)))
+      (.appendChild table-row table-cell-place)
+      (.appendChild table-row table-cell-team)
+      (.appendChild table-row table-cell-points)
       (.appendChild table table-row))))
 
 
