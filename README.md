@@ -14,7 +14,28 @@ Data about ice hockey games (rivals, final score, ...) from Czech ice hockey top
 
 Chart or some graphics of standings for each round and its changes during these rounds.
 
-## License
+# Build
+
+
+## Web client
+
+Build JS file which is linked from `index.html`:
+
+`lein cljsbuild once`
+
+or
+
+`lein cljsbuild auto`
+
+for auto rebuild after change.
+
+# Run
+
+Run server which contains web app files as static assets:
+
+`lein run`
+
+# License
 
 Copyright © 2016
 
