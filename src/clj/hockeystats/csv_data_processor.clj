@@ -14,7 +14,7 @@
 
 ;; TODO this remove all of S, but I want to remove only the first one
 (defn remove-line-ends [string]
-  (str/replace string #"[\n|S\n]" ""))
+  (str/replace string #"\n|S\s+\n" ""))
 
 
 (defn extract-periods [periods-string]
@@ -22,14 +22,15 @@
 
 
 (defn convert-game [dirty-game]
-  {:team1 (remove-line-ends (nth dirty-game 2))
-   :team2 (remove-line-ends (nth dirty-game 6))
-   :periods (extract-periods (remove-line-ends (nth dirty-game 4)))})
+  {:team1 (remove-line-ends (nth dirty-game 1))
+   :team2 (remove-line-ends (nth dirty-game 5))
+   :periods (extract-periods (remove-line-ends (nth dirty-game 3)))})
 
+(convert-game ["" "" "BK \nMladá Boleslav" "1" "PÁ 18. 09.\n(0:0, 0:0, 1:1 - 0:0 - 0:1)" "2" "SHC Sparte Olomouc" ""])
 
 (defn get-round [dirty-game]
-  (if (.contains (nth dirty-game 1) "kolo")
-    (nth (str/split (nth dirty-game 1) #"[\\.\s]+") 0)
+  (if (.contains (nth dirty-game 0) "kolo")
+    (nth (str/split (nth dirty-game 0) #"[\\.\s]+") 0)
     nil))
 
 
