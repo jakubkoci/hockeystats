@@ -44,7 +44,7 @@
 
 
 (defn tables-for-rounds [games]
-  (loop [n 2
+  (loop [n 1
          result []]
     (if (>= (count result) (count games))
       result
